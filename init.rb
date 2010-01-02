@@ -1,2 +1,2 @@
 # Include hook code here
-require 'responds_to_backport'
+require 'respond_with_backport'
