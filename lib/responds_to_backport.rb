@@ -586,3 +586,7 @@ module ActionController #:nodoc:
     end
   end
 end
+
+
+ActionController::Base.send :include, ActionController::MimeResponds
+ActionController::Base.send :public, :render
